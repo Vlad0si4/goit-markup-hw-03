@@ -1,0 +1,256 @@
+
+:root {
+    --SLATE: #434455;
+    --NAVY-BLUE : #2E2F42;
+    --WHITE : #FFFFFF;
+    --hover-color : #404BBF;
+    --IRIS:  #4D5AE5;
+    --CLOUD: #F4F4FD;
+    --hover-color-button : #404BBF;
+
+
+}
+/* main color */
+body {
+    color: var(--SLATE);
+    background: var(--WHITE);
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.02em;
+    
+}
+.list {
+    list-style: none;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1158px;
+    outline: 2px solid tomato;
+}
+
+/* logo color */
+.logo {
+
+    padding-top: 24px;
+    padding-bottom: 24px;
+    color: var(--IRIS);
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase
+    }
+.link {
+    text-decoration: none;
+}
+span.logo-color-header {
+    color: var(--NAVY-BLUE)
+} 
+.logo:hover,.logo:focus,
+.logo span:hover
+{
+    color: var(--hover-color);
+}
+/* site nav */
+.site-nav .link {
+
+    color: var(--NAVY-BLUE);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;  
+    text-decoration: none;
+    font-style: normal
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--hover-color);
+}
+/**
+
+/* address nav*/
+.address-nav .link {
+    color: var(--SLATE);
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: none; 
+}
+.address-nav {
+    font-style: normal
+}
+.address-nav .link:hover,
+.link:focus {
+    color: var(--hover-color);
+}
+/* section */
+.section-title {
+    margin-top: 124px;
+    margin-bottom: 8px;
+    padding: 0;
+    color: var(--NAVY-BLUE);
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    }
+
+ .section-title.list {
+    margin-top: 32px;
+ }   
+ .section-text.list { 
+    margin-bottom: 152px;
+ }
+.section-text {
+    margin-bottom: 120px;
+
+    color: var(--SLATE);
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.main.section-title {
+    margin-top: 120px;
+    margin-bottom: 72px;
+
+    color: var(--NAVY-BLUE);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+main.section-title.text {
+    margin-bottom: 120px;
+
+}
+.color {
+    background-color: var(--WHITE);
+}
+.color-title {
+    margin-bottom: 120px;
+}
+.section.person {
+    background: var(--CLOUD);
+ 
+}
+
+.main .hero-title {
+    margin-top: 0;
+    margin-bottom: 0;
+
+
+    color: var(--WHITE);
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em
+    }    
+/* hero title */
+.hero {
+    background-color: var(--NAVY-BLUE);
+    text-align: center;
+    
+}
+.hero-title {
+    color: var(--WHITE);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    margin-top: 0;
+    margin-bottom: 0px;
+    padding-bottom: 48px;
+    padding-top: 188px ;
+}        
+
+/* button */
+.button {
+    border-radius: 4px;
+    padding: 16px 32px;
+    min-width: 69px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    text-align: center;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    font-family: inherit;
+
+}
+
+.button.primary {
+
+    color: var(--WHITE);
+    background-color: var(--IRIS);
+    margin-bottom: 188px; 
+
+}
+
+.button.secondary {
+
+    color: var(--IRIS);
+    background-color: var(--CLOUD);
+    border: 1px solid #E7E9FC;
+ 
+}
+   
+/* color hover button */
+.button:hover,
+.button:focus {
+    background-color: var(--hover-color-button);
+   
+}
+.list .button.secondary:hover,
+.list .button.secondary:focus {
+    background-color: var(--hover-color-button);
+    color: var(--WHITE);
+   
+}
+/* footer */
+
+.footer {
+    background-color: var(--NAVY-BLUE);
+}
+.footer .logo.color {
+    padding-top: 100px;
+    padding-bottom: 16px;;
+    color: var(--IRIS);
+    text-decoration: none;
+    background-color: var(--NAVY-BLUE);
+}
+span.logo-color{
+    color: var(--CLOUD)
+}
+
+.footer .logo:hover, .footer .logo:focus,
+.footer .logo span:hover { 
+color: var(--hover-color)
+}
+.footer .section-text {
+    padding-bottom: 100px;
+    color: var(--CLOUD);
+   
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
