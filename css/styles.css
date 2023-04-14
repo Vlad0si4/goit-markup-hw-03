@@ -263,7 +263,7 @@ background-color: var(--color-iris);
 }
 
 .portfolio-item {
-    width: calc((100% - 24px) / 3);
+    width: calc((100% - 2 * 24px) / 3);
 
 
 }
