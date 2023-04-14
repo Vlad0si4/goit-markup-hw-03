@@ -255,18 +255,19 @@ background-color: var(--color-iris);
   margin-bottom: 8px;
 }
 
-.portfolio-wrapper {
-
-}
 .portfolio-item {
-  border: 1px solid #e7e9fc;
+  width: calc((100% - 48px) / 3);
+
 }
 .portfolio-item__link {
-
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+  
 }
-/* .portfolio-item__link {
-  padding: 32px 16px; */
-
+.filter-wrapper {
+  padding: 32px 16px;
+}
 
 /**
   |============================
