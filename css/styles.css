@@ -160,6 +160,10 @@ body {
  .button:focus{
   background-color: var(--color-ocean);
 }
+.filter-button:hover,
+ .filter-button:focus {
+ color: var(--color-white);
+}
 /**
   |============================
   | BUTTON
