@@ -169,6 +169,7 @@ body {
 .filter-button:hover,
  .filter-button:focus {
  color: var(--color-white);
+border: 1px solid transparent;
 }
 /**
   |============================
@@ -183,6 +184,7 @@ background-color: var(--color-iris);
   font-size: 16px;
   line-height: calc(24 / 16);
   border-radius: 4px;
+  
 
 }
 
@@ -214,6 +216,7 @@ background-color: var(--color-iris);
   padding: 12px 24px;
   margin-top: 96px;
   margin-bottom: 72px;
+  border: 1px solid #e7e9fc;
 
 
 }
@@ -223,6 +226,12 @@ background-color: var(--color-iris);
   |============================
 */
 /* FILTERS */
+
+.filter {
+  padding: 96px 0 120px;
+  margin-bottom: 72px;
+
+}
 
 .filter-list {
 
@@ -265,6 +274,7 @@ background-color: var(--color-iris);
 */
 .hero {
   background-color: var(--color-navy-blue);
+  padding: 188px 0;
 
 }
 .hero-title {
@@ -282,8 +292,7 @@ background-color: var(--color-iris);
 }
 
  .hero-content {
-  padding: 188px 0 ;
-  
+
  }
 
 
@@ -296,11 +305,17 @@ background-color: var(--color-iris);
   display: flex;
   align-items: flex start;
   gap: 24px;
+
 }
 
 .advantage-title {
   margin-bottom: 8px;
 }
+.advantage-list__item {
+    width: calc((100% - 72px) / 4)
+
+}
+
 /**
   |============================
   | SECTION TEXT / TITLE
