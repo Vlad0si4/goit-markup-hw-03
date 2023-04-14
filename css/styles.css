@@ -227,9 +227,8 @@ background-color: var(--color-iris);
 */
 /* FILTERS */
 
-.filter {
+.filters {
   padding: 96px 0 120px;
-  margin-bottom: 72px;
 
 }
 
@@ -245,11 +244,11 @@ background-color: var(--color-iris);
 /*  ROW */
 .portfolio-list {
 
-  
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+ 
 
 }
 .portfolio-title {
@@ -261,6 +260,8 @@ background-color: var(--color-iris);
 }
 .portfolio-item {
   border: 1px solid #e7e9fc;
+}
+.portfolio-item__link {
 
 }
 /* .portfolio-item__link {
