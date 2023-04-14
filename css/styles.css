@@ -237,8 +237,13 @@ background-color: var(--color-iris);
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-bottom: 72px;
 
   gap: 24px
+}
+.filter-item {
+  /* width: calc((100% - 48px) / 3) */
+
 }
 
 /*  ROW */
