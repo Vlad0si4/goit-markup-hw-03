@@ -222,6 +222,8 @@ background-color: var(--color-iris);
   | PORTFOLIO
   |============================
 */
+/* FILTERS */
+
 .filter-list {
 
   display: flex;
@@ -230,16 +232,32 @@ background-color: var(--color-iris);
 
   gap: 24px
 }
-.porfolio-list {
+
+/*  ROW */
+.portfolio-list {
+
+  
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
 
 }
-.portfolio-item {
+.portfolio-title {
+  margin-bottom: 8px;
+}
+
+.portfolio-wrapper {
 
 }
+.portfolio-item {
+  border: 1px solid #e7e9fc;
+
+}
+/* .portfolio-item__link {
+  padding: 32px 16px; */
+
+
 /**
   |============================
   | HERO
@@ -353,7 +371,6 @@ text-transform: capitalize;
   text-align: center;
   margin-bottom: 8px;
  
-
 }
 .team-list__text{
 text-align: center;
