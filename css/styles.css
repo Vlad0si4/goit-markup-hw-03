@@ -253,8 +253,10 @@ background-color: var(--color-iris);
   color: var(--color-white);
 
   max-width: 496px;
-
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
   font-weight: 700;
   font-size: 56px;
   line-height: calc(60 / 56);
